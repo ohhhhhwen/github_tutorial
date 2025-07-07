@@ -9,3 +9,8 @@ def median(input):
     else:
         _value = size // 2
         return input[_value]
+def mean(input):
+  sum = 0
+  for entry in input:
+    sum += entry
+  return sum / len(input)
